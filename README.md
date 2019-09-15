@@ -27,10 +27,10 @@ cd to the directory of your choice, clone, and hack away!
 
 Contributors names and contact info
 
-Campbell Derrik @
-Gutierrez Edgardo @Edi-Guti
-Marin-Garcia Dana @danamarin
-Obasa Ifekitan @iobasa
+* Campbell Derrik @DerrikC
+* Gutierrez Edgardo @Edi-Guti
+* Marin-Garcia Dana @danamarin
+* Obasa Ifekitan @iobasa
 
 ## Version History
 
