@@ -345,6 +345,488 @@
   border: solid 3px transparent;
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); }
 
+/* Project 1 styling */
+
+/* P1 hero bcg and title */
+.project1Header {
+  background-image: url(../images/project1_heroImage.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#P1_heroTitle {
+  font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+#P1_title1 {
+  width: 64%;
+  background-color: darkolivegreen;
+}
+
+#P1_title2 {
+  width: 94%;
+  background-color: darkolivegreen;
+  margin-top: 2%;
+}
+
+/* P1 general description section */
+#P1_deskMock img {
+  width: 83%;
+  height: auto;
+  margin-left: 7%;
+}
+
+#P1_genDescription {
+  text-align: center;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: #7C7C7C;
+  width: 83%;
+  height: auto;
+  margin: 9%;
+}
+
+/* P1 branding section */
+
+.brandingDescription {
+  background-image: url(../images/project1_brandingBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+}
+
+.brandingDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.brandingMockup img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 30%;
+}
+
+/* P1 responsiveness section */
+.responsiveDescription {
+  background-image: url(../images/project1_responsiveBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 30%;
+}
+
+.responsiveDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.responsiveMockup img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  margin-top: 103%;
+}
+
+/* P1 footer */
+#p1_footer {
+  background-image: url(../images/project1_footerBcg.png);
+  background-repeat: round;
+	background-size: unset;
+  height: 120px;
+  width: auto;
+  margin-top: 200%;
+}
+
+.f-icon-p1 {
+  margin: 0;
+  margin-right: 70px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0; }
+
+.f-icon-p1 a {
+  width: 70px;
+  height: 50px; 
+}
+
+.f-icon-p1 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 15%;
+}
+
+#copyrightP1 {
+  margin-top: 13%;
+  text-align: center;
+  font-size: 0.5em;
+  color: white;
+  font-family: oswald,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  position: absolute;
+  margin-left: 38%;
+}
+
+#back-topP1 {
+  margin-bottom: 20%;
+}
+
+#back-topP1 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 7%;
+}
+
+/* Project 2 styling */
+
+/* P2 hero bcg and title */
+.project2Header {
+  background-image: url(../images/project2_heroImage.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#P2_heroTitle {
+  font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+#P2_title1 {
+  width: 51%;
+  background-color: purple;
+}
+
+#P2_title2 {
+  width: 39%;
+  background-color: purple;
+  margin-top: 2%;
+}
+
+/* P2 general description section */
+#P2_deskMock img {
+  width: 83%;
+  height: auto;
+  margin-left: 7%;
+}
+
+#P2_genDescription {
+  text-align: center;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: #7C7C7C;
+  width: 83%;
+  height: auto;
+  margin: 9%;
+}
+
+/* P2 branding section */
+
+.brandingDescription {
+  background-image: url(../images/project2_brandingBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+}
+
+.brandingDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.brandingMockup img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 30%;
+}
+
+/* P2 responsiveness section */
+.responsiveDescription {
+  background-image: url(../images/project2_responsiveBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 30%;
+}
+
+.responsiveDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.responsiveMockup img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  margin-top: 103%;
+}
+
+/* P2 footer */
+#P2_footer {
+  background-image: url(../images/project2_footerBcg.png);
+  background-repeat: round;
+	background-size: unset;
+  height: 120px;
+  width: auto;
+  margin-top: 200%;
+}
+
+.f-icon-P2 {
+  margin: 0;
+  margin-right: 70px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0; }
+
+.f-icon-P2 a {
+  width: 70px;
+  height: 50px; 
+}
+
+.f-icon-P2 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 15%;
+}
+
+#copyrightP2 {
+  margin-top: 13%;
+  text-align: center;
+  font-size: 0.5em;
+  color: white;
+  font-family: oswald,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  position: absolute;
+  margin-left: 38%;
+}
+
+#back-topP2 {
+  margin-bottom: 20%;
+}
+
+#back-topP2 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 7%;
+}
+
+/* Project 3 styling */
+
+/* P3 hero bcg and title */
+.project3Header {
+  background-image: url(../images/project3_heroImage.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+#P3_heroTitle {
+  font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+#P3_title1 {
+  width: 30%;
+  background-color: palevioletred;
+}
+
+#P3_title2 {
+  width: 39%;
+  background-color: palevioletred;
+  margin-top: 2%;
+}
+
+/* P3 general description section */
+#P3_deskMock img {
+  width: 83%;
+  height: auto;
+  margin-left: 7%;
+}
+
+#P3_genDescription {
+  text-align: center;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: #7C7C7C;
+  width: 83%;
+  height: auto;
+  margin: 9%;
+}
+
+/* P3 branding section */
+
+.brandingDescription {
+  background-image: url(../images/project3_brandingBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+}
+
+.brandingDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.brandingMockup img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-top: 48%;
+  margin-left: 30%;
+}
+
+/* P3 responsiveness section */
+.responsiveDescription {
+  background-image: url(../images/project3_responsiveBcg.png);
+  background-repeat: round;
+  background-position: unset;
+  width: 70%;
+  height: 40%;
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 30%;
+}
+
+.responsiveDescription p {
+  text-align: left;
+  font-family: oswald,sans-serif;
+  font-style: normal;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin: 32% 0 0 12%;
+}
+
+.responsiveMockup img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  margin-top: 103%;
+}
+
+/* P3 footer */
+#P3_footer {
+  background-image: url(../images/project3_footerBcg.png);
+  background-repeat: round;
+	background-size: unset;
+  height: 120px;
+  width: auto;
+  margin-top: 200%;
+}
+
+.f-icon-P3 {
+  margin: 0;
+  margin-right: 70px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0; }
+
+.f-icon-P3 a {
+  width: 70px;
+  height: 50px; 
+}
+
+.f-icon-P3 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 15%;
+}
+
+#copyrightP3 {
+  margin-top: 13%;
+  text-align: center;
+  font-size: 0.5em;
+  color: white;
+  font-family: oswald,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  position: absolute;
+  margin-left: 38%;
+}
+
+#back-topP3 {
+  margin-bottom: 20%;
+}
+
+#back-topP3 img {
+  width: 5%; 
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 7%;
+}
+
+/* TABLET STARTS */
+
 @media screen and (min-width: 767px) {
   .hero-head {
     margin-top: 40px;
@@ -408,7 +890,95 @@
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); } }
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); 
+  } 
+  /* PROJECT 1 - TABLET */
+  #P1_heroTitle {
+    font-size: 6em;
+    margin-top: 14%;
+  }
+
+  #P1_genDescription {
+    font-size: 1.6em;
+  }
+
+  .brandingDescription p {
+    font-size: 1.8em;
+  }
+
+  .responsiveDescription p {
+    font-size: 1.8em;
+  }
+
+  #p1_footer {
+    height: 220px;
+  }
+
+  #copyrightP1 {
+    margin-top: 18%;
+    margin-left: 40%;
+    font-size: 1em;
+  }
+
+  /* PROJECT 2 - TABLET */
+  #P2_heroTitle {
+    font-size: 6em;
+    margin-top: 14%;
+  }
+
+  #P2_genDescription {
+    font-size: 1.6em;
+  }
+
+  .brandingDescription p {
+    font-size: 1.8em;
+  }
+
+  .responsiveDescription p {
+    font-size: 1.8em;
+  }
+
+  #P2_footer {
+    height: 220px;
+  }
+
+  #copyrightP2 {
+    margin-top: 18%;
+    margin-left: 40%;
+    font-size: 1em;
+  }
+
+  /* PROJECT 3 - TABLET */
+  #P3_heroTitle {
+    font-size: 6em;
+    margin-top: 14%;
+  }
+
+  #P3_genDescription {
+    font-size: 1.6em;
+  }
+
+  .brandingDescription p {
+    font-size: 1.8em;
+  }
+
+  .responsiveDescription p {
+    font-size: 1.8em;
+  }
+
+  #P3_footer {
+    height: 220px;
+  }
+
+  #copyrightP3 {
+    margin-top: 18%;
+    margin-left: 40%;
+    font-size: 1em;
+  }
+}
+
+/* DESKTOP */
+
 @media screen and (min-width: 1024px) {
   .hero-head {
     margin-top: 170px;
@@ -474,7 +1044,15 @@
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); } }
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); 
+  } 
+
+    /* PROJECT 1 - DESKTOP */
+
+
+}
+
+
 .siteContainerH {
   background-image: url("../images/mobile-tablet-home-bcg.svg");
   background-repeat: no-repeat;
