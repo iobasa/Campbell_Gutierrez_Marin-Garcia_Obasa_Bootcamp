@@ -1,4 +1,4 @@
-import People from "./modules/DataObject.js";
+// import People from "./modules/DataObject.js";
 
 (() => {
 	console.log("fired!");
@@ -8,6 +8,11 @@ import People from "./modules/DataObject.js";
 	let mobileNav = document.querySelector("#button"),
 		navPanel = document.querySelector("#burgerCon"),
 		closeButton = document.querySelector(".close"),
+		//video buttons
+		goatVid = document.querySelector('.cultureVid'),
+		play = document.querySelector(".play"),
+		stop = document.querySelector(".stop"),
+		rewind = document.querySelector(".rewind");
 
 		// select ALL of the nav panel anchor tags (the a element)
 		navLinks = navPanel.querySelectorAll('a');
@@ -87,6 +92,18 @@ import People from "./modules/DataObject.js";
 		bioInfo1.textContent = bioData[multiplier][1] ;
 		bioInfo2.textContent = bioData[multiplier][2] ;
 	  }
+ //video buttons
+		function playVid(){
+	  	goatVid.play();
+			}
+
+			function stopVid(){
+	  	goatVid.pause();
+			}
+
+			function rewindVid(){
+	  	goatVid.load();
+			}
 
 	  // these are the triggers that fire off our functionality (when user clicks on something)
 	mobileNav.addEventListener('click', toggleNav);
@@ -96,6 +113,9 @@ import People from "./modules/DataObject.js";
 	  sigils.forEach(sigil => sigil.addEventListener("click", animateBanners)),
 	  closeL.addEventListener("click", closeLightBox);
 
-
+		//video execute
+		play.addEventListener("click", playVid);
+		stop.addEventListener("click", stopVid);
+		rewind.addEventListener("click", rewindVid);
 
   })();

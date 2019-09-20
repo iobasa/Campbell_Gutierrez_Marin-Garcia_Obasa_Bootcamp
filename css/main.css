@@ -685,10 +685,42 @@
   height: 100%;
   background-color: black; }
 
-.cultureVid video {
+.cultureVid {
   margin-top: 30%;
-  margin-bottom: 25%;
   width: 100%; }
+
+  .play {
+  width: 40px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.stop {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.rewind {
+  width: 40px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.video-controls i {
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.video-controls {
+  top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
 
 @media screen and (min-width: 767px) {
   .siteContainerA {
