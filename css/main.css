@@ -205,8 +205,8 @@
   .iconNav img {
     margin-left: 15px;
     margin-right: 15px;
-    width: 90%; 
-  } 
+    width: 90%;
+  }
 }
 
 /* DESKTOP */
@@ -281,13 +281,14 @@
   .iconNav img {
     margin-left: 15px;
     margin-right: 15px;
-    width: 70%; 
-  } 
+    width: 70%;
+  }
 
-  
+
 
 }
 #logo {
+  margin: 15px 15px 15px 15px;
   padding-top: 20px;
   width: 30%; }
 
@@ -482,11 +483,11 @@
 
 .f-icon-p1 a {
   width: 70px;
-  height: 50px; 
+  height: 50px;
 }
 
 .f-icon-p1 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 42%;
   margin-top: 15%;
@@ -509,7 +510,7 @@
 }
 
 #back-topP1 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 85%;
   margin-top: 7%;
@@ -642,11 +643,11 @@
 
 .f-icon-P2 a {
   width: 70px;
-  height: 50px; 
+  height: 50px;
 }
 
 .f-icon-P2 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 42%;
   margin-top: 15%;
@@ -669,7 +670,7 @@
 }
 
 #back-topP2 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 85%;
   margin-top: 7%;
@@ -802,11 +803,11 @@
 
 .f-icon-P3 a {
   width: 70px;
-  height: 50px; 
+  height: 50px;
 }
 
 .f-icon-P3 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 42%;
   margin-top: 15%;
@@ -829,7 +830,7 @@
 }
 
 #back-topP3 img {
-  width: 5%; 
+  width: 5%;
   position: absolute;
   margin-left: 85%;
   margin-top: 7%;
@@ -900,8 +901,8 @@
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); 
-  } 
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
   /* PROJECT 1 - TABLET */
   #P1_heroTitle {
     font-size: 6em;
@@ -1054,8 +1055,8 @@
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
     border: solid 3px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); 
-  } 
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
 
 
   /* PROJECT 1 - DESKTOP */
@@ -1118,7 +1119,7 @@
     #P2_heroTitle {
       font-size: 8em;
     }
-  
+
     #P2_title1 {
       width: 47%;
     }
@@ -1126,45 +1127,45 @@
     #P2_title2 {
       width: 36%;
     }
-  
+
     #P2_genDescription {
       font-size: 1.8em;
       margin: 9% 9% 9% 18%;
       width: 65%;
     }
-  
+
     .brandingDescription {
       width: 65%;
       height: 100%;
     }
-  
+
     .brandingDescription p {
       font-size: 2.2em;
     }
-  
+
     .responsiveDescription {
       width: 65%;
       height: 100%;
       margin-left: 35%;
     }
-  
+
     .responsiveDescription p {
       font-size: 2.2em;
     }
-  
+
     .responsiveMockup img {
       margin-top: 100%;
       margin-left: 2%;
     }
-  
+
     #P2_footer {
       height: 320px;
     }
-  
+
     #back-topP2 img {
       margin-top: 15%;
     }
-  
+
     #copyrightP2 {
       margin-left: 42%;
       margin-top: 22%;
@@ -1237,6 +1238,7 @@
   background-color: grey; }
 
 .tab-head {
+  margin-top: 200px;
   display: none; }
 
 .tab-head1 {
@@ -1325,7 +1327,7 @@
 
   .tab-head {
     margin-left: 530px;
-    margin-top: 450px;
+    margin-top: 200px;
     margin-bottom: 250px;
     display: flex;
     align-content: flex-end;
