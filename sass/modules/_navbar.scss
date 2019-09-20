@@ -1,0 +1,347 @@
+
+#button {
+    background: url('../images/hamburger-menu-icon.svg') center no-repeat;
+    float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    transition: all 400ms ease;
+  }
+
+#button.expanded {
+    /* browser prefixes for transform */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    margin-left: auto;
+  
+    /* default transform */
+    transform: rotate(90deg);
+  }
+
+  
+
+
+  #nav-btn {
+    margin-top: 10%;
+    margin-left: 32%;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 100rem;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5rem;
+  padding: .4rem 2.5rem;
+  color: white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px transparent inset;
+  }
+
+ 
+#burgerCon {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  margin-bottom: 20px;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  box-shadow: 10px 5px 5px grey;
+
+
+  /* this should be off by default and  */
+  display: none;
+}
+
+.show-mobile-nav {
+  display: block !important;
+}
+
+#burgerCon li {
+  padding: 20px;
+  border-top: thin 1px black;
+  text-align: left;
+}
+
+#burgerMenu {
+  margin-top: 50px;
+}
+
+#burgerCon a {
+  text-decoration: none;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+color: #A888C2;
+}
+
+.close {
+  float: right;
+  right: 20px;
+  color: #A888C2;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+  position: absolute;
+  top: 20px;
+}
+
+.close h1 {
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.iconNav {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.iconNav a {
+  width: 45px;
+  height: 30px;
+}
+
+.iconNav img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80%;
+}
+
+@media screen and (min-width: 767px) {
+
+
+  #button {
+    background: url('../images/hamburger-menu-icon.svg') center no-repeat;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+    border: 0;
+    width: 70px;
+    height: 70px;
+    transition: all 400ms ease;
+  }
+
+#button.expanded {
+    /* browser prefixes for transform */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    margin-left: auto;
+  
+    /* default transform */
+    transform: rotate(90deg);
+  }
+
+  
+
+
+  #nav-btn {
+    margin-top: 10%;
+    margin-left: 32%;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 100rem;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+  padding: .6rem 4.5rem;
+  color: white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px transparent inset;
+  }
+
+ 
+#burgerCon {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  margin-bottom: 20px;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  box-shadow: 10px 5px 5px grey;
+
+
+  /* this should be off by default and  */
+  display: none;
+}
+
+.show-mobile-nav {
+  display: block !important;
+}
+
+#burgerCon li {
+  padding: 20px;
+  border-top: thin 1px black;
+  text-align: left;
+}
+
+#burgerMenu {
+  margin-top: 50px;
+}
+
+#burgerCon a {
+  text-decoration: none;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+color: #A888C2;
+}
+
+.close {
+  float: right;
+  right: 20px;
+  color: #A888C2;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+  position: absolute;
+  top: 20px;
+}
+
+.close h1 {
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+  position: absolute;
+  top: 40px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.iconNav {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.iconNav a {
+  width: 70px;
+  height: 50px;
+}
+
+.iconNav img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 90%;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  #mainHeader {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mainNav{
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  #button {
+    display: none;
+  }
+
+  
+  #nav-btn {
+    display: none;
+  }
+
+ 
+#burgerCon {
+  margin-left: 330px;
+  text-align: right;
+  background-image: none;
+  top: 0;
+  width: 65%;
+  box-shadow: none;
+  justify-content: flex-end;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+#burgerCon li {
+  margin-left: 15px;
+  padding: 5;
+  display: inline-block;
+  border-top: thin 1px black;
+  text-align: right;
+}
+
+#burgerMenu {
+  margin-top: 50px;
+  width: 70%;
+}
+
+#burgerMenu a:hover{
+  border-bottom: solid 1px white;
+}
+
+#burgerCon a {
+  text-decoration: none;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.7rem;
+color:white;
+}
+
+
+.close {
+  display: none;
+}
+
+.iconNav {
+  margin: 0;
+  margin-right: 70px;
+  width: 20%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.iconNav a {
+  width: 70px;
+  height: 50px;
+}
+
+.iconNav img {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 70%;
+}
+
+}
+
+
+

@@ -1,0 +1,217 @@
+.hero-head {
+  margin-top: 40px;
+  display: flex;
+flex-direction: column;
+}
+
+.hero-head h1{
+  width: 40%;
+  float: left;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 3rem;
+color: white;
+background-color: #CE0037;
+}
+
+.buttons{
+  margin-top: 5%;
+  justify-content: center;
+}
+
+.border-btn {
+  margin-left: 32%;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 100rem;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+  padding: .4rem 2.5rem;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.full-btn{
+  margin-left: 32%;
+  display: block;
+  border-radius: 100rem;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+  padding: .4rem 2.7rem;
+  color: white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+}
+
+.bot-btn{
+  margin-left: 32%;
+  display: block;
+  border-radius: 100rem;
+  font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1rem;
+  padding: .4rem 2.7rem;
+  color: white;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+}
+
+@media screen and (min-width: 767px) {
+  .hero-head {
+    margin-top: 40px;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .hero-head h1{
+    width: 40%;
+    float: left;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+  color: white;
+  background-color: #CE0037;
+  }
+  
+  .buttons{
+    margin-top: 10%;
+    justify-content: center;
+  }
+  
+  .border-btn {
+    margin-left: 30%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+    padding: .7rem 4.5rem;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+  }
+  
+  .full-btn{
+    margin-left: 30%;
+    display: block;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+    padding: .7rem 5.5rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
+
+  .bot-btn{
+    margin-left: 30%;
+    display: block;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+    padding: .7rem 5.5rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
+  
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-head {
+    margin-top: 170px;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .hero-head h1{
+    width: 40%;
+    float: left;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10rem;
+  color: white;
+  background-color: #CE0037;
+  }
+  
+  .buttons{
+    margin-top: 10%;
+    justify-content: center;
+    display: none;
+  }
+  
+  .border-btn {
+    margin-left: 30%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+    padding: .7rem 4.5rem;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+  }
+  
+  .full-btn{
+    margin-left: 30%;
+    display: block;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+    padding: .7rem 5.5rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
+
+  .bot-btn{
+    margin-top: 150px;
+    margin-left: 38%;
+    display: block;
+    border-radius: 100rem;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+    padding: .7rem 5.5rem;
+    color: white;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
+  }
+  
+}

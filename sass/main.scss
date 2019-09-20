@@ -1,3 +1,16 @@
+// do your imports first, so that they're available everywhere
+@import "_vars";
+@import "modules/_navbar";
+@import "modules/_header";
+@import "modules/_hero";
+@import "modules/_home";
+@import "modules/_about";
+@import "modules/_portfolio";
+@import "modules/_contact";
+@import "modules/_traa";
+@import "modules/_lightbox";
+
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -46,3 +59,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.hidden{
+    display: none;
+}
+
+
+
+@import "modules/_footer"
+
+
