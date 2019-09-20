@@ -1,0 +1,231 @@
+.siteContainerA {
+    background-image: url("../images/mobile-about-bcg.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.hero-head3{
+    margin-top: 15%;
+    margin-bottom: 40%;
+    display: flex;
+  flex-direction: column;
+}
+
+.hero-head3 h1{
+    width: 40%;
+    float: left;
+    font-family: din-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: white;
+background-color: #9CB72E;
+}
+
+.image2 {
+    margin-top: 20%;
+    width: 100%;
+    height: 40%;
+    background-color: grey;
+}
+
+#our-team {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: 10%;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#our-team h1 {
+    font-family: din-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 2rem;
+    color: #9CB72E;
+}
+
+#our-team p {
+    font-size: 0.7em;
+    font-family: oswald,sans-serif;
+font-weight: 400;
+font-style: normal;
+ color: #7c7c7c;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+
+.imagea{
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+}
+
+.imageb{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+}
+
+
+@media screen and (min-width: 767px) {
+    .siteContainerA {
+        background-image: url("../images/tablet-about-bcg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .hero-head3 h1{
+        width: 50%;
+      float: left;
+      font-family: din-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    color: white;
+    background-color: #9CB72E;
+    }
+    
+    .image2 {
+        margin-top: 30%;
+        width: 100%;
+        height: 70%;
+        background-color: grey;
+    }
+    
+    #our-team {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 10%;
+        width: 80%;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #our-team h1 {
+        font-family: din-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+        color: #9CB72E;
+    }
+    
+    #our-team p {
+        font-size: 1.7em;
+        font-family: oswald,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: #7c7c7c;
+    }
+    
+    .images {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+    }
+    
+    .imagea{
+        width: 50%;
+        height: 100%;
+        background-color: grey;
+    }
+    
+    .imageb{
+        width: 50%;
+        height: 100%;
+        background-color: black;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .siteContainerA {
+        background-image: url("../images/desktop-about-bcg.svg");
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .hero-head3 {
+        margin-bottom: 130px;
+        margin-top: 170px;
+        display: flex;
+      flex-direction: column;
+      }
+      
+      .hero-head3 h1{
+        width: 40%;
+        float: left;
+        font-family: din-condensed,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 10rem;
+      color: white;
+      background-color: #9CB72E;
+      }
+    
+    
+    .image2 {
+        margin-top: 800px;
+        width: 100%;
+        height: 900px;
+        background-color: grey;
+    }
+    
+    #our-team {
+        margin-top: 30%;
+        margin-bottom: 30%;
+        margin-left: 10%;
+        width: 80%;
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #our-team h1 {
+        font-family: din-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+        color: #9CB72E;
+    }
+    
+    #our-team p {
+        font-size: 2.7em;
+        font-family: oswald,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+     color: #7c7c7c;
+    }
+
+    .Team-bio {
+        margin-top: 500px;
+    }
+    
+    .images {
+        display: flex;
+        flex-direction: row;
+        height: 650px;
+    }
+    
+    .imagea{
+        width: 50%;
+        height: 650px;
+        background-color: grey;
+    }
+    
+    .imageb{
+        width: 50%;
+        height: 650px;
+        background-color: black;
+    }
+}
