@@ -57,6 +57,24 @@ font-style: normal;
     display: none;
   }
 
+  .prt1{
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .portImage1 img {
+    width: 100%;
+  }
+
+  .portImage2 img {
+    width: 100%;
+  }
+
+  .portImage3 img {
+    width: 100%;
+  }
+
   .image4 {
     width: 100%;
     height: 30%;
@@ -200,15 +218,21 @@ font-style: normal;
     height: 500px;
 }
 
-.imagec{
-    width: 50%;
-    height: 500px;
-    background-color: grey;
+.prt1 {
+  margin-top: 10%;
 }
 
-.imaged{
-    width: 50%;
-    height: 500px;
-    background-color: black;
+.portImage1 img {
+  width: 670px;
+  height: 600px;
+}
+
+.portImage2 img {
+  width: 670px;
+  height: 600px;
+}
+
+.portImage3 img{
+  height: 600px;
 }
 }

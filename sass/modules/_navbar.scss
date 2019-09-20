@@ -277,11 +277,11 @@ font-size: 3rem;
 
  
 #burgerCon {
-  margin-left: 330px;
+  margin-left: 140px;
   text-align: right;
   background-image: none;
   top: 0;
-  width: 65%;
+  width: 85%;
   box-shadow: none;
   justify-content: flex-end;
   position: relative;
@@ -300,6 +300,10 @@ font-size: 3rem;
 #burgerMenu {
   margin-top: 50px;
   width: 70%;
+}
+
+#burgerMenu ul{
+  width: 100%;
 }
 
 #burgerMenu a:hover{
@@ -322,9 +326,8 @@ color:white;
 
 .iconNav {
   margin: 0;
-  margin-right: 70px;
   width: 20%;
-  margin-top: 50px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   margin-bottom: 0;
