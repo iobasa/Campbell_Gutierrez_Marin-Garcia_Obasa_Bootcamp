@@ -1,5 +1,7 @@
 
-
+a {
+  text-decoration: none;
+}
 #button {
   background: url("../images/hamburger-menu-icon.svg") center no-repeat;
   float: right;
@@ -35,7 +37,9 @@
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px transparent inset; }
+  box-shadow: 2px 1000px 1px transparent inset;
+
+}
 
 #burgerCon {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
@@ -213,6 +217,39 @@
     width: 90%;
   }
 
+  .prt1 {
+    display: flex;
+    position: relative;
+  }
+
+  .prt2 {
+    display: flex;
+    position: relative;
+
+  }
+
+  .portfolioCon {
+    max-width: 100%;
+  }
+
+  .portImage1 img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .portImage2 img{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .portImage3 img{
+    display: flex;
+    max-width: 100%;
+  height: auto;
+  }
+
 }
 
 /* DESKTOP */
@@ -329,7 +366,8 @@
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
   background-origin: border-box;
   background-clip: content-box, border-box;
-  box-shadow: 2px 1000px 1px #fff inset; }
+  box-shadow: 2px 1000px 1px #fff inset;
+}
 
 .full-btn {
   margin-left: 32%;
@@ -839,6 +877,23 @@
   margin-top: 7%;
 }
 
+.portImage1 img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+.portImage2 img{
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+.portImage3 img{
+  display: flex;
+  max-width: 100%;
+height: auto;
+}
 /* TABLET STARTS */
 
 @media screen and (min-width: 767px) {
@@ -909,36 +964,33 @@
 
   /*PORTFOLIO tablet images that send to portfolio pages*/
 
-  .images1 {
+  /* .images1 {
     display: flex;
-    flex-direction: column;
-    height: 500px; }
+    height: 100%; }
 
   .imagesPrt_2 {
     display: flex;
-    flex-direction: column;
-    height: 500px;
+    height: 100%;
   }
 
   .imagec {
     display: block;
-    width: 50%;
+    width: 100%;
     height: 200px;
     background-color: grey; }
 
   .imaged {
     display: block;
-    width: 50%;
+    width: 100%;
     height: 200px;
     background-color: black; }
 
     .imagee {
       display: block;
-      width: 100%;
-      height: 200px;
+      width: 200px;
       background-color: black; }
 
-    }
+    } */
 
   /* PROJECT 1 - TABLET */
   #P1_heroTitle {
@@ -1094,6 +1146,7 @@
     border: solid 3px transparent;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
   }
+
 
 
   /* PROJECT 1 - DESKTOP */
@@ -1260,6 +1313,8 @@
     margin-top: 22%;
   }
 
+
+
 }
 
 
@@ -1349,20 +1404,19 @@
 
     .imagec {
       display: block;
-      width: 50%;
+      width: 100%;
       height: 200px;
       background-color: grey; }
 
     .imaged {
       display: block;
-      width: 50%;
+      width: 100%;
       height: 200px;
       background-color: black; }
 
       .imagee {
         display: block;
-        width: 100%;
-        height: 200px;
+        width: 200px;
         background-color: black;
       }
 
@@ -1499,7 +1553,7 @@ video {
   background-color: grey; }
 
 .imageb {
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-color: black; }
 
@@ -1645,7 +1699,31 @@ video {
   .imageb {
     width: 50%;
     height: 650px;
-    background-color: black; } }
+    background-color: black; }
+
+    .imagec {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: grey; }
+
+    .imaged {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: black; }
+
+      .imagee {
+        display: block;
+        width: 200px;
+        background-color: black;
+      }
+
+
+
+   }
+
+
 .siteContainerP {
   background-image: url("../images/mobile-portfolio-bcg.svg");
   background-repeat: no-repeat;
@@ -1823,29 +1901,23 @@ video {
 
   .images1 {
     display: flex;
-    flex-direction: row;
-    height: 500px; }
+    justify-content: space-around;
+     }
 
   .imagesPrt_2 {
     display: flex;
-    flex-direction: row;
-    height: 1000px;
+    justify-content:center;
   }
 
   .imagec {
-    width: 50%;
-    height: 500px;
     background-color: grey; }
 
   .imaged {
-    width: 50%;
-    height: 500px;
     background-color: black; }
 
     .imagee {
+      width: 200px;
       display: block;
-      width: 100%;
-      height: 1000px;
       background-color: black; }
     }
 
@@ -2294,7 +2366,7 @@ input[type=message] {
   display: none; }
 
 .lightbox img {
-  width: 20%; }
+  width: 100%; }
 
 .show-lightbox {
   display: block; }
@@ -2309,7 +2381,7 @@ input[type=message] {
   margin-bottom: 20px !important;
   width: 500px;
   height: 360px;
-  background-color: grey;
+  background-color: none;
   margin: 0 auto;
   overflow: hidden; }
 
