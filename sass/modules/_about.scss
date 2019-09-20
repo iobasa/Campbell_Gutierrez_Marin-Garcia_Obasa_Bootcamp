@@ -62,7 +62,7 @@ font-style: normal;
     height: 30%;
 }
 
-.imagea{
+.member{
     width: 50%;
     height: 100%;
     background-color: grey;
@@ -72,6 +72,13 @@ font-style: normal;
     width: 50%;
     height: 100%;
     background-color: black;
+}
+
+
+.cultureVid video {
+    margin-top: 30%;
+    margin-bottom: 25%;
+    width: 100%;
 }
 
 
@@ -209,7 +216,9 @@ font-style: normal;
 
     .Team-bio {
         margin-top: 500px;
+        margin-bottom: 25%;
     }
+
     
     .images {
         display: flex;

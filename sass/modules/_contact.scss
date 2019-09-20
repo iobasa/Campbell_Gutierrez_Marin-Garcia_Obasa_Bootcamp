@@ -72,7 +72,7 @@ background-color: #35AAA6;
   
   .contact
   {
-    margin-top: 140px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,10 +146,8 @@ background-color: #35AAA6;
       background-color: black;
   }
 
-  .image3 {
-    margin-bottom: 20%;
+  .contact-img {
     width: 100%;
-    height: 30%;
     background-color: grey;
 }
 
@@ -498,7 +496,7 @@ background-color: #35AAA6;
     }
   
     .image3 {
-      margin-top: 800px;
+      margin-top: 600px;
       margin-bottom: 20%;
       width: 100%;
       height: 700px;

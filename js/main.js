@@ -1,3 +1,5 @@
+import People from "./modules/DataObject.js";
+
 (() => {
 	console.log("fired!");
 
@@ -10,12 +12,12 @@
 		// select ALL of the nav panel anchor tags (the a element)
 		navLinks = navPanel.querySelectorAll('a');
 
-		const sigils = document.querySelectorAll('.imagea'),
+		const sigils = document.querySelectorAll('.member'),
 		lightBox = document.querySelector('.lightbox'),
 		teamName = document.querySelector("#member-name"),
 		bioInfo1 = document.querySelector(".bio-info1"),
 		bioInfo2 = document.querySelector(".bio-info2"),
-		imageContainer = document.querySelectorAll(".imageContainer"),
+		imageContainer = document.querySelector("#l-Images img"),
 		closeL = document.querySelector('.close-l');
 
 		let targetImage = "";
@@ -23,6 +25,12 @@
 
 		const bioData = [
 		["IFE OBASA", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+
+		["DERRIK CAMPBELL", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+
+		["DANA MARIN-GARCIA", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+
+		["EDI GUTIERREZ", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
       ];
 
 
@@ -61,12 +69,9 @@
 		// make the lightbox show up
 		lightBox.classList.add('show-lightbox');
 
-		let imagePath = `images/member-${targetImage}.png`;
-
-      // load this new video videoPath
-      imageContainer.src = imagePath;
-
+		imageContainer.src = "images/" + People.avatar;
 	  }
+
 
 	  function closeLightBox(event) {
 		event.preventDefault();
