@@ -205,7 +205,12 @@
   .iconNav img {
     margin-left: 15px;
     margin-right: 15px;
-    width: 90%; } }
+    width: 90%; 
+  } 
+}
+
+/* DESKTOP */
+
 @media screen and (min-width: 1024px) {
   #mainHeader {
     display: flex;
@@ -224,11 +229,11 @@
     display: none; }
 
   #burgerCon {
-    margin-left: 330px;
+    margin-left: 5%;
     text-align: right;
     background-image: none;
     top: 0;
-    width: 65%;
+    width: 101%;
     box-shadow: none;
     justify-content: flex-end;
     position: relative;
@@ -264,7 +269,7 @@
     margin: 0;
     margin-right: 70px;
     width: 20%;
-    margin-top: 50px;
+    margin-top: 7%;
     display: flex;
     flex-direction: row;
     margin-bottom: 0; }
@@ -276,7 +281,12 @@
   .iconNav img {
     margin-left: 15px;
     margin-right: 15px;
-    width: 70%; } }
+    width: 70%; 
+  } 
+
+  
+
+}
 #logo {
   padding-top: 20px;
   width: 30%; }
@@ -1047,8 +1057,170 @@
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); 
   } 
 
-    /* PROJECT 1 - DESKTOP */
 
+  /* PROJECT 1 - DESKTOP */
+  #P1_heroTitle {
+    font-size: 7em;
+  }
+
+  #P1_title1 {
+    width: 53%;
+  }
+
+  #P1_title2 {
+    width: 78%;
+  }
+
+  #P1_genDescription {
+    font-size: 1.8em;
+    margin: 9% 9% 9% 18%;
+    width: 65%;
+  }
+
+  .brandingDescription {
+    width: 65%;
+    height: 100%;
+  }
+
+  .brandingDescription p {
+    font-size: 2.2em;
+  }
+
+  .responsiveDescription {
+    width: 65%;
+    height: 100%;
+    margin-left: 35%;
+  }
+
+  .responsiveDescription p {
+    font-size: 2.2em;
+  }
+
+  .responsiveMockup img {
+    margin-top: 100%;
+    margin-left: 2%;
+  }
+
+  #p1_footer {
+    height: 320px;
+  }
+
+  #back-topP1 img {
+    margin-top: 15%;
+  }
+
+  #copyrightP1 {
+    margin-left: 42%;
+    margin-top: 22%;
+  }
+
+    /* PROJECT 2 - DESKTOP */
+    #P2_heroTitle {
+      font-size: 8em;
+    }
+  
+    #P2_title1 {
+      width: 47%;
+    }
+
+    #P2_title2 {
+      width: 36%;
+    }
+  
+    #P2_genDescription {
+      font-size: 1.8em;
+      margin: 9% 9% 9% 18%;
+      width: 65%;
+    }
+  
+    .brandingDescription {
+      width: 65%;
+      height: 100%;
+    }
+  
+    .brandingDescription p {
+      font-size: 2.2em;
+    }
+  
+    .responsiveDescription {
+      width: 65%;
+      height: 100%;
+      margin-left: 35%;
+    }
+  
+    .responsiveDescription p {
+      font-size: 2.2em;
+    }
+  
+    .responsiveMockup img {
+      margin-top: 100%;
+      margin-left: 2%;
+    }
+  
+    #P2_footer {
+      height: 320px;
+    }
+  
+    #back-topP2 img {
+      margin-top: 15%;
+    }
+  
+    #copyrightP2 {
+      margin-left: 42%;
+      margin-top: 22%;
+    }
+
+    /* PROJECT 3 - DESKTOP */
+  #P3_heroTitle {
+    font-size: 13em;
+  }
+
+  #P3_title1 {
+    width: 44%;
+  }
+
+  #P3_genDescription {
+    font-size: 1.8em;
+    margin: 9% 9% 9% 18%;
+    width: 65%;
+  }
+
+  .brandingDescription {
+    width: 65%;
+    height: 100%;
+  }
+
+  .brandingDescription p {
+    font-size: 2.2em;
+  }
+
+  .responsiveDescription {
+    width: 65%;
+    height: 100%;
+    margin-left: 35%;
+  }
+
+  .responsiveDescription p {
+    font-size: 2.2em;
+  }
+
+  .responsiveMockup img {
+    margin-top: 100%;
+    margin-left: 2%;
+  }
+
+  #P3_footer {
+    height: 320px;
+  }
+
+  #back-topP3 img {
+    margin-top: 15%;
+  }
+
+  #copyrightP3 {
+    margin-left: 42%;
+    margin-top: 22%;
+  }
 
 }
 
