@@ -22,7 +22,6 @@ background-color: #CE0037;
 
 .border-btn {
   margin-left: 32%;
-  display: block;
   margin-bottom: 20px;
   border-radius: 100rem;
   font-family: din-condensed,sans-serif;
@@ -136,7 +135,6 @@ font-size: 1rem;
     padding: .7rem 5.5rem;
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344);
   }
   
