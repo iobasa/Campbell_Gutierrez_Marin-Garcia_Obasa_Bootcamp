@@ -62,7 +62,8 @@
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  color: #A888C2; }
+  color: white;
+  opacity: 0.5; }
 
 .close {
   float: right;
@@ -167,7 +168,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
-    color: #A888C2; }
+    color: white;
+    opacity: 0.5; }
 
   .close {
     float: right;
@@ -258,7 +260,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 1.7rem;
-    color: white; }
+    color: white;
+    opacity: 0.5; }
 
   .close {
     display: none; }
@@ -304,7 +307,6 @@
 
 .border-btn {
   margin-left: 32%;
-  display: block;
   margin-bottom: 20px;
   border-radius: 100rem;
   font-family: din-condensed,sans-serif;
@@ -410,7 +412,6 @@
     padding: .7rem 5.5rem;
     color: white;
     box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
-    border: solid 3px transparent;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(to right, #5772b0, #623d8b, #431344); } }
 @media screen and (min-width: 1024px) {
   .hero-head {
@@ -530,8 +531,7 @@
   .image1 {
     margin-top: 15%;
     width: 100%;
-    height: 50%;
-    background-color: grey; }
+    height: 50%; }
 
   .sub-head {
     margin-top: 50px;
@@ -1488,16 +1488,6 @@ input[type=message] {
     margin-left: auto;
     margin-right: auto;
     border-bottom: solid 2px #35AAA6; } }
-.heroImage {
-  background-image: url("../images/project1_heroImage.png");
-  margin-top: 20px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100px; }
-
 .close-l h1 {
   color: white;
   position: absolute;
