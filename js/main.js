@@ -27,11 +27,11 @@
 
 
 		const bioData = [
-		["IFE OBASA", `Likes cookies n' cream ice cream`, `Loves drawing`],
+		["IFE OBASA", `Likes ice cream`, `Loves drawing`],
 
 		["DERRIK CAMPBELL", `Likes science fiction`, `Loves mango smoothies`],
 
-	["DANA MARIN-GARCIA", `Likes dubstep`, `Loves maple oatmeal`],
+		["DANA MARIN-GARCIA", `Likes dubstep`, `Loves maple oatmeal`],
 
 		["EDI GUTIERREZ", `Likes traveling`, `Loves longboarding`],
       ];
