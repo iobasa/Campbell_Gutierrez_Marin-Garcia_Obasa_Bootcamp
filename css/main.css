@@ -63,8 +63,8 @@
   font-style: normal;
   font-size: 1rem;
   color: white;
-  opacity: .5; 
-}
+  opacity: 0.5; }
+
 
 .close {
   float: right;
@@ -170,8 +170,8 @@
     font-style: normal;
     font-size: 3rem;
     color: white;
-    opacity: .5; 
-  }
+    opacity: 0.5; }
+
 
   .close {
     float: right;
@@ -263,8 +263,7 @@
     font-style: normal;
     font-size: 1.7rem;
     color: white;
-    opacity: .5; 
-  }
+    opacity: 0.5; }
 
   .close {
     display: none; }
@@ -539,8 +538,8 @@
   .image1 {
     margin-top: 15%;
     width: 100%;
-    height: 50%;
-  }
+    height: 50%; }
+
 
   .sub-head {
     margin-top: 50px;
@@ -1537,16 +1536,6 @@ input[type=message] {
     margin-left: auto;
     margin-right: auto;
     border-bottom: solid 2px #35AAA6; } }
-.heroImage {
-  background-image: url("../images/project1_heroImage.png");
-  margin-top: 20px;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100px; }
-
 .close-l h1 {
   color: white;
   position: absolute;
