@@ -27,11 +27,11 @@
 
 
 		const bioData = [
-		["IFE OBASA", `Likes cookies n' cream ice cream`, `Loves drawing`],
+		["IFE OBASA", `Likes ice cream`, `Loves drawing`],
 
 		["DERRIK CAMPBELL", `Likes science fiction`, `Loves mango smoothies`],
 
-	["DANA MARIN-GARCIA", `Likes dubstep`, `Loves maple oatmeal`],
+		["DANA MARIN-GARCIA", `Likes dubstep`, `Loves maple oatmeal`],
 
 		["EDI GUTIERREZ", `Likes traveling`, `Loves longboarding`],
       ];
@@ -90,6 +90,18 @@
 		bioInfo1.textContent = bioData[multiplier][1] ;
 		bioInfo2.textContent = bioData[multiplier][2] ;
 	  }
+ //video buttons
+		function playVid(){
+	  	goatVid.play();
+			}
+
+			function stopVid(){
+	  	goatVid.pause();
+			}
+
+			function rewindVid(){
+	  	goatVid.load();
+			}
 
 	   //video buttons
 		function playVid(){
@@ -156,5 +168,9 @@
 		big4.style.display = "block";
 	}
 
+		//video execute
+		play.addEventListener("click", playVid);
+		stop.addEventListener("click", stopVid);
+		rewind.addEventListener("click", rewindVid);
 
   })();
