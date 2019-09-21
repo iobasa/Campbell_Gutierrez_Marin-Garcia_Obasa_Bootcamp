@@ -90,6 +90,18 @@
 		bioInfo1.textContent = bioData[multiplier][1] ;
 		bioInfo2.textContent = bioData[multiplier][2] ;
 	  }
+ //video buttons
+		function playVid(){
+	  	goatVid.play();
+			}
+
+			function stopVid(){
+	  	goatVid.pause();
+			}
+
+			function rewindVid(){
+	  	goatVid.load();
+			}
 
 	   //video buttons
 		function playVid(){
@@ -156,5 +168,9 @@
 		big4.style.display = "block";
 	}
 
+		//video execute
+		play.addEventListener("click", playVid);
+		stop.addEventListener("click", stopVid);
+		rewind.addEventListener("click", rewindVid);
 
   })();
