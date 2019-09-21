@@ -1,9 +1,7 @@
-
-
 (() => {
 	console.log("fired!");
 
-
+	
 	// set up your variable stack ->
 	let mobileNav = document.querySelector("#button"),
 		navPanel = document.querySelector("#burgerCon"),
@@ -170,11 +168,9 @@
 		big4.style.display = "block";
 	}
 
-
-
-=======
 		//video execute
 		play.addEventListener("click", playVid);
 		stop.addEventListener("click", stopVid);
 		rewind.addEventListener("click", rewindVid);
+
   })();
