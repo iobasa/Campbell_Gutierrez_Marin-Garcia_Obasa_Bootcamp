@@ -1,4 +1,4 @@
-// import People from "./modules/DataObject.js";
+
 
 (() => {
 	console.log("fired!");
@@ -29,13 +29,13 @@
 
 
 		const bioData = [
-		["IFE OBASA", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+		["IFE OBASA", `Likes cookies n' cream ice cream`, `Loves drawing`],
 
-		["DERRIK CAMPBELL", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+		["DERRIK CAMPBELL", `Likes science fiction`, `Loves mango smoothies`],
 
-		["DANA MARIN-GARCIA", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+	["DANA MARIN-GARCIA", `Likes dubstep`, `Loves maple oatmeal`],
 
-		["EDI GUTIERREZ", `retaking the Iron Throne following the Battle of King's Landing`, `retaking the Iron Throne following the Battle of King's Landing`],
+		["EDI GUTIERREZ", `Likes traveling`, `Loves longboarding`],
       ];
 
 
@@ -105,6 +105,19 @@
 	  	goatVid.load();
 			}
 
+	   //video buttons
+		function playVid(){
+			goatVid.play();
+			  }
+  
+			  function stopVid(){
+			goatVid.pause();
+			  }
+  
+			  function rewindVid(){
+			goatVid.load();
+			  }
+
 	  // these are the triggers that fire off our functionality (when user clicks on something)
 	mobileNav.addEventListener('click', toggleNav);
 	closeButton.addEventListener("click", close);
@@ -113,9 +126,55 @@
 	  sigils.forEach(sigil => sigil.addEventListener("click", animateBanners)),
 	  closeL.addEventListener("click", closeLightBox);
 
-		//video execute
+	  //video execute
 		play.addEventListener("click", playVid);
 		stop.addEventListener("click", stopVid);
 		rewind.addEventListener("click", rewindVid);
 
+
+	var img1 = document.getElementById("ife-bio");
+	var img2 = document.getElementById("derrik-bio");
+	var img3 = document.getElementById("dana-bio");
+	var img4 = document.getElementById("edi-bio");
+
+	var big1 = document.getElementById("ife");
+	var big2 = document.getElementById("derrik");
+	var big3 = document.getElementById("dana");
+	var big4 = document.getElementById("edi");
+
+	img1.onclick = function() {
+		big1.style.display = "block";
+		big2.style.display = "none";
+		big3.style.display = "none";
+		big4.style.display = "none";
+	}
+
+	img2.onclick = function() {
+		big1.style.display = "none";
+		big2.style.display = "block";
+		big3.style.display = "none";
+		big4.style.display = "none";
+	}
+
+	img3.onclick = function() {
+		big1.style.display = "none";
+		big2.style.display = "none";
+		big3.style.display = "block";
+		big4.style.display = "none";
+	}
+
+	img4.onclick = function() {
+		big1.style.display = "none";
+		big2.style.display = "none";
+		big3.style.display = "none";
+		big4.style.display = "block";
+	}
+
+
+
+=======
+		//video execute
+		play.addEventListener("click", playVid);
+		stop.addEventListener("click", stopVid);
+		rewind.addEventListener("click", rewindVid);
   })();
