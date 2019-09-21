@@ -1,6 +1,7 @@
 (() => {
 	console.log("fired!");
 
+	
 	// set up your variable stack ->
 	let mobileNav = document.querySelector("#button"),
 		navPanel = document.querySelector("#burgerCon"),
